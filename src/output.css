@@ -554,6 +554,9 @@
   .gap-10 {
     gap: calc(var(--spacing) * 10);
   }
+  .gap-32 {
+    gap: calc(var(--spacing) * 32);
+  }
   :where(.space-y-6 > :not(:last-child)) {
     --tw-space-y-reverse: 0;
     margin-block-start: calc(calc(var(--spacing) * 6) * var(--tw-space-y-reverse));
