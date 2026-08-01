@@ -1195,6 +1195,10 @@
       font-size: var(--text-xl);
       line-height: var(--tw-leading, var(--text-xl--line-height));
     }
+    .md\:leading-none {
+      --tw-leading: 1;
+      line-height: 1;
+    }
     .md\:font-bold {
       --tw-font-weight: var(--font-weight-bold);
       font-weight: var(--font-weight-bold);
