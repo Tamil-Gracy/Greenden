@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden - Tailwind</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+        integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="./src/output.css" rel="stylesheet">
+</head>
+
+<body class="p-0 m-0 font-Inter">
+    <header class="bg-[#dce7c7] shadow-2xl sticky top-0 z-10">
+        <nav class="px-10 py-5 flex items-center justify-between gap-5">
+            <a href="index.html">
+                <h1 class="text-2xl font-bold text-green-800 uppercase cursor-pointer">Greenden</h1>
+            </a>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6 md:hidden text-green-800">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+
+            <ul class="flex justify-between gap-5 hidden md:flex text-green-950">
+                <li><a href="index.html" class="hover:text-green-700">Home</a></li>
+                <li><a href="about.html" class="hover:text-green-700">About</a></li>
+                <li><a href="products.html" class="hover:text-green-700">Products</a></li>
+                <li><a href="contact.html" class="hover:text-green-700">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Products section-->
+    <section class="products bg-[#f6f6f6]">
+        <div class="md:px-10 py-10 text-green-950">
+            <h2 class="text-3xl text-center capitalize mb-4 font-semibold">Make your home beautiful with plants</h2>
+            <div class="flex justify-center md:justify-around items-center pt-5 gap-5 text-center flex-wrap">
+                <ul class="flex justify-center items-center pt-5 gap-5 text-center">
+                    <li><a href="#"
+                            class="bg-[#dce7c7] border border-green-800 rounded-2xl p-3 inline-block w-auto md:w-[100px]">All</a>
+                    </li>
+                    <li><a href="#"
+                            class="border hover:bg-[#dce7c7] border-green-800 rounded-2xl p-3 inline-block w-auto md:w-[100px]">Cactus</a>
+                    </li>
+                    <li><a href="#"
+                            class="border hover:bg-[#dce7c7] border-green-800 rounded-2xl p-3 inline-block w-auto md:w-[100px]">Rose</a>
+                    </li>
+                    <li><a href="#"
+                            class="border hover:bg-[#dce7c7] border-green-800 rounded-2xl p-3 inline-block w-auto md:w-[100px]">Lilly</a>
+                    </li>
+                </ul>
+                <div class="search pt-5 w-[80%] md:w-[30%]">
+                <div class="border border-gray-400 hover:border-green-900 rounded-2xl p-3">
+                    
+                    <input type="text"
+                        class="focus:outline-none focus:border-none w-[90%]" placeholder="Search plants here">
+                        <a href="#"><i class="fa fa-solid fa-search"></i></a>
+                </div>
+                </div>
+            </div>
+
+            <div class="products flex flex-wrap justify-center items-center md:gap-3">
+                <div
+                    class="product_card p-3 mx-3 mt-5 md:p-10 md:mt-10 shadow rounded-2xl basis-[40%] md:basis-1/5 bg-[#fff] transition-transform duration-300 hover:scale-105 cursor-pointer">
+                    <img src="./images/cactus1.jpg" alt="Cactus"
+                        class="mb-4 transition-transform duration-300 hover:scale-110">
+                    <div class="details h-25">
+                        <p class="mb-2 text-green-900 font-semibold">Cactus</p>
+                        <p class="mb-2">₹100.00</p>
+                        <a href="#" class="underline font-semibold hover:text-green-800">Shop now</a>
+                    </div>
+                </div>
+                <div
+                    class="product_card p-3 mx-3 mt-5 md:p-10 md:mt-10 shadow rounded-2xl basis-[40%] md:basis-1/5 bg-[#fff] transition-transform duration-300 hover:scale-105 cursor-pointer">
+                    <img src="./images/rose2.jpg" alt="Rose"
+                        class="mb-4 transition-transform duration-300 hover:scale-110">
+                    <div class="details h-25">
+                        <p class="mb-2 text-green-900 font-semibold">Rose</p>
+                        <p class="mb-2">₹100.00</p>
+                        <a href="#" class="underline font-semibold hover:text-green-800">Shop now</a>
+
+                    </div>
+                </div>
+                <div
+                    class="product_card p-3 mx-3 mt-5 md:p-10 md:mt-10 shadow rounded-2xl basis-[40%] md:basis-1/5 bg-[#fff] transition-transform duration-300 hover:scale-105 cursor-pointer">
+                    <img src="./images/lilly1.jpg" alt="lilly"
+                        class="mb-4 transition-transform duration-300 hover:scale-110">
+                    <div class="details h-25">
+                        <p class="mb-2 text-green-900 font-semibold">Peace Lilly</p>
+                        <p class="mb-2">₹100.00</p>
+                        <a href="#" class="underline font-semibold hover:text-green-800">Shop now</a>
+                    </div>
+                </div>
+                <div
+                    class="product_card p-3 mx-3 mt-5 md:p-10 md:mt-10 shadow rounded-2xl basis-[40%] md:basis-1/5 bg-[#fff] transition-transform duration-300 hover:scale-105 cursor-pointer">
+                    <img src="./images/cactus2.jpg" alt="Cactus"
+                        class="mb-4 transition-transform duration-300 hover:scale-110">
+                    <div class="details h-25">
+                        <p class="mb-2 text-green-900 font-semibold">Cactus</p>
+                        <p class="mb-2">₹100.00</p>
+                        <a href="#" class="underline font-semibold hover:text-green-800">Shop now</a>
+                    </div>
+                </div>
+                <div
+                    class="product_card p-3 mx-3 mt-5 md:p-10 md:mt-10 shadow rounded-2xl basis-[40%] md:basis-1/5 bg-[#fff] transition-transform duration-300 hover:scale-105 cursor-pointer">
+                    <img src="./images/rose1.jpg" alt="Rose"
+                        class="mb-4 transition-transform duration-300 hover:scale-110">
+                    <div class="details h-25">
+                        <p class="mb-2 text-green-900 font-semibold">Rose</p>
+                        <p class="mb-2">₹100.00</p>
+                        <a href="#" class="underline font-semibold hover:text-green-800">Shop now</a>
+                    </div>
+                </div>
+                <div
+                    class="product_card p-3 mx-3 mt-5 md:p-10 md:mt-10 shadow rounded-2xl basis-[40%] md:basis-1/5 bg-[#fff] transition-transform duration-300 hover:scale-105 cursor-pointer">
+                    <img src="./images/lilly2.jpg" alt="Lilly"
+                        class="mb-4 transition-transform duration-300 hover:scale-110">
+                    <div class="details h-25">
+                        <p class="mb-2 text-green-900 font-semibold">Peace Lilly</p>
+                        <p class="mb-2">₹100.00</p>
+                        <a href="#" class="underline font-semibold hover:text-green-800">Shop now</a>
+                    </div>
+                </div>
+                <div
+                    class="product_card p-3 mx-3 mt-5 md:p-10 md:mt-10 shadow rounded-2xl basis-[40%] md:basis-1/5 bg-[#fff] transition-transform duration-300 hover:scale-105 cursor-pointer">
+                    <img src="./images/rose3.jpg" alt="Rose"
+                        class="mb-4 transition-transform duration-300 hover:scale-110">
+                    <div class="details h-25">
+                        <p class="mb-2 text-green-900 font-semibold">Rose</p>
+                        <p class="mb-2">₹100.00</p>
+                        <a href="#" class="underline font-semibold hover:text-green-800">Shop now</a>
+                    </div>
+                </div>
+                <div
+                    class="product_card p-3 mx-3 mt-5 md:p-10 md:mt-10 shadow rounded-2xl basis-[40%] md:basis-1/5 bg-[#fff] transition-transform duration-300 hover:scale-105 cursor-pointer">
+                    <img src="./images/cactus1.jpg" alt="Cactus"
+                        class="mb-4 transition-transform duration-300 hover:scale-110">
+                    <div class="details h-25">
+                        <p class="mb-2 text-green-900 font-semibold">Cactus</p>
+                        <p class="mb-2">₹100.00</p>
+                        <a href="#" class="underline font-semibold hover:text-green-800">Shop now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Newsletter section-->
+    <section class="mt-10 text-center">
+        <h2 class="font-bold text-2xl text-center mb-4">Join Our News Letter</h2>
+        <p class="">Signup for our email newsletter to get exclusivediscounts,updates and more</p>
+        <input type="text" class="border border-gray-400 m-4 p-2 w-[80%] md:w-[50%] hover:border border-green-900">
+        <button class="bg-black text-white py-2 px-3">Subscribe</button>
+    </section>
+    <!--Footer section-->
+    <footer class="bg-[#dce7c7] p-10 md:p-5 mt-10 flex justify-between items-center flex-wrap gap-5">
+        <h1 class="text-xl md:text-2xl font-bold text-green-800 uppercase cursor-pointer">Greenden</h1>
+         <ul class="flex justify-between gap-5 md:flex text-green-950">
+                <li><a href="index.html" class="hover:text-green-700">Home</a></li>
+                <li><a href="about.html" class="hover:text-green-700">About</a></li>
+                <li><a href="products.html" class="hover:text-green-700">Products</a></li>
+                <li><a href="contact.html" class="hover:text-green-700">Contact</a></li>
+            </ul>
+        <p class="text-green-900 text-sm">@ 2026 Greenden.com</p>
+    </footer>
+</body>
+
+</html>
