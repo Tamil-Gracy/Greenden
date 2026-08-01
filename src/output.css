@@ -365,6 +365,9 @@
   .h-\[80vhvh\] {
     height: 80vhvh;
   }
+  .h-\[100px\] {
+    height: 100px;
+  }
   .h-\[100vh\] {
     height: 100vh;
   }
@@ -1163,6 +1166,9 @@
     }
     .md\:grid-cols-\[30\%_70\%\] {
       grid-template-columns: 30% 70%;
+    }
+    .md\:grid-cols-\[30\%_70\] {
+      grid-template-columns: 30% 70;
     }
     .md\:grid-cols-\[70\%_30\%\] {
       grid-template-columns: 70% 30%;
